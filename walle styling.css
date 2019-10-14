@@ -1,0 +1,80 @@
+body {  text-align: center;
+    background: url("https://spacenews.com/wp-content/uploads/2018/05/24359364107_152b0152ff_k-879x485.jpg");
+    color:white;
+    font-family: Helvetica;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    mix-blend-mode: multiply;
+}
+
+
+p {
+    font-size: 24px;
+    text-shadow: 2px 2px  blue;
+    font-style: italic;
+}
+
+input {
+    border: 0;
+    padding: 12px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    background: navy;
+    color: white;
+}
+    
+.fa {
+display: inline-block;
+padding: 0px;
+position: relative;
+cursor: pointer;
+font-size: 25px;
+width: 45px;
+height: 45px;
+text-decoration: none;
+text-align: center;
+color: #fff;
+font-size: 25px;
+font-weight: normal;
+line-height: 2em;
+text-decoration: none;
+position: relative;
+border-radius: 27px;
+box-shadow: 0 3px 3px #999;
+border:2px solid #ddd;
+-moz-border-radius:27px;
+-webkit-border-radius:27px;
+}
+
+/* hover effect*/
+.fa:hover {
+opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+background: #3B5998;
+font-family: "FontAwesome";
+color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+
+/* Youtube */
+.fa-youtube {
+background: red;
+color: white;
+}
+
+.fa-instagram {
+background: #458eff;
+color: white;
+}
